@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Merienda", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p,
+a {
+    font-size: 20px;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-parent {
+    height: 78px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-child img {
+    margin-left: 350px;
+}
+
+.header-child a {
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-size: 18px;
+}
+
+
+.section-1-child {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-1-child img {
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.section-2 {
+    margin-bottom: 80px;
+}
+
+.section-2-parent {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+
+.section-2-child img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-2-child h1 {
+    text-align: justify;
+    margin-top: 25%;
+}
+
+.section-2-child button {
+    width: 320px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 18px;
+    color: black;
+    margin-right: 45%;
+    margin-top: 25px;
+    font-weight: 800;
+}
+
+.section-3-parent {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-3-child {
+    height: 620px;
+}
+
+.section-3-child img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bg {
+    background-color: white;
+    width: 520px;
+    height: 260px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.section-3-child p,
+h2 {
+    text-align: start;
+    padding: 7px;
+}
+
+.box {
+    right: 330px;
+    height: 450px;
+    width: 520px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.boxes h1 {
+    text-align: start;
+    padding-top: 50px;
+}
+
+.section-4-parent {
+    display: flex;
+    justify-content: start;
+    margin-top: 180px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-4-parent img {
+    border-radius: 15px;
+    margin-left: 135px;
+    margin-top: 200px;
+}
+
+.section-4-child {
+    border-radius: 15px;
+    height: 492px;
+    width: 460px;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 100px;
+}
+
+.section-4-child h1 {
+    background-color: white;
+    text-align: start;
+}
+
+.section-4-child p {
+    background-color: white;
+    text-align: start;
+}
+
+.section-5 {
+    margin-top: 80px;
+}
+
+.section-5-child {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.section-5-child img {
+    background-color: white;
+    padding: 24px;
+    border-radius: 15px;
+}
+
+.section-6 {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-6 p {
+    text-align: start;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.booxx {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.footer-parent {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+
+button i {
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer button {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white;
+}
+
+.footer-parent-1 {
+    display: flex;
+    gap: 150px;
+    padding-bottom: 40px;
+}
+
+.footer-parent-1 h2 {
+    color: white;
+}
+
+.chil-1,
+.chil-2,
+.chil-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chil-3 h2 {
+    color: transparent;
+}
+
+.footer-parent-2 {
+    padding-top: 40px;
+}
+
+.footer-parent-2 p {
+    color: white;
+}
+
+.chil-8 {
+    text-align: end;
+    padding-bottom: 100px;
+}
+
+.section-7 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.section-8 {
+    padding-bottom: 50px;
+}
+
+.section-9 {
+    padding-bottom: 50px;
+}
+
+.boxees {
+    height: 450px;
+    width: 520px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.section-10 {
+    padding-bottom: 100px;
+}
+
+.section-10 .section-4-parent img {
+    margin-top: 150px;
+}
+
+.section-10 .section-4-child {
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+@media screen and (max-width:767px) {
+
+    .section-3-parent,
+    .section-5-child {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0
+    }
+
+    .section-1-child {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-1-child img {
+        border-radius: 15px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .section-2-parent {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-2-child h1 {
+        margin-top: -25%;
+        text-align: center;
+        text-indent: 11px;
+    }
+
+    .section-2-child button {
+        width: 354px;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .section-3-child {
+        margin-top: 120px;
+    }
+
+    .booxx, .header-parent {
+        display: none;
+    }
+
+    .imgs-1 {
+        max-width: 90%;
+        margin-left: 20px;
+    }
+
+    p,
+    a {
+        font-size: 20px;
+    }
+
+    .section-5-child {
+        align-items: center;
+    }
+
+    .bg {
+        width: 354px;
+        margin-left: 20px;
+        height: 340px;
+    }
+
+    .boxes {
+        padding: 15px;
+    }
+
+    .boxes h1 {
+        text-align: start;
+        padding-top: 50px;
+    }
+
+    .section-4-parent {
+        width: 100%;
+    }
+
+    .section-4-parent img {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 580px;
+        border-radius: 0;
+    }
+
+    .section-4-child {
+        height: 450px;
+        width: 294px;
+        padding: 30px;
+        margin-left: 5%;
+        margin-top: 150px;
+    }
+
+    .section-5-child {
+        margin-top: 30px;
+    }
+
+    .section-6 {
+        width: 90%;
+    }
+
+    .section-10 .section-4-parent img {
+        margin-top: 520px;
+    }
+
+    .section-10 .section-4-child {
+        margin-top: 100px;
+    }
+
+}
