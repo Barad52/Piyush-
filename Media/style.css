@@ -1,0 +1,27 @@
+.section-1-parent {
+    display: flex;
+    gap: 50px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-1-child {
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .section-1-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs {
+        max-width: 100%;
+    }
+}
